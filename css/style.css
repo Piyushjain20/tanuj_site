@@ -8,7 +8,8 @@ body {
 @font-face {
   font-family: "Bon Vivant Family Serif";
   src: url("../fonts/BonVivantSerifBold.eot");
-  src: url("../fonts/BonVivantSerifBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BonVivantSerifBold.woff") format("woff"), url("../fonts/BonVivantSerifBold.ttf") format("truetype"), url("../fonts/BonVivantSerifBold.svg#BonVivantSerifBold") format("svg");
+  src: url("../fonts/BonVivantSerifBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BonVivantSerifBold.woff") format("woff"), url("../fonts/BonVivantSerifBold.ttf") format("truetype"),
+    url("../fonts/BonVivantSerifBold.svg#BonVivantSerifBold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -16,7 +17,8 @@ body {
 @font-face {
   font-family: "Halvar Eng Md";
   src: url("../fonts/HalvarEng-Md.eot");
-  src: url("../fonts/HalvarEng-Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Md.woff") format("woff"), url("../fonts/HalvarEng-Md.ttf") format("truetype"), url("../fonts/HalvarEng-Md.svg#HalvarEng-Md") format("svg");
+  src: url("../fonts/HalvarEng-Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Md.woff") format("woff"), url("../fonts/HalvarEng-Md.ttf") format("truetype"),
+    url("../fonts/HalvarEng-Md.svg#HalvarEng-Md") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -24,7 +26,8 @@ body {
 @font-face {
   font-family: "Halvar Eng Lt";
   src: url("../fonts/HalvarEng-Lt.eot");
-  src: url("../fonts/HalvarEng-Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Lt.woff") format("woff"), url("../fonts/HalvarEng-Lt.ttf") format("truetype"), url("../fonts/HalvarEng-Lt.svg#HalvarEng-Lt") format("svg");
+  src: url("../fonts/HalvarEng-Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Lt.woff") format("woff"), url("../fonts/HalvarEng-Lt.ttf") format("truetype"),
+    url("../fonts/HalvarEng-Lt.svg#HalvarEng-Lt") format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -32,7 +35,8 @@ body {
 @font-face {
   font-family: "Halvar Eng Rg";
   src: url("../fonts/HalvarEng-Rg.eot");
-  src: url("../fonts/HalvarEng-Rg.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Rg.woff") format("woff"), url("../fonts/HalvarEng-Rg.ttf") format("truetype"), url("../fonts/HalvarEng-Rg.svg#HalvarEng-Rg") format("svg");
+  src: url("../fonts/HalvarEng-Rg.eot?#iefix") format("embedded-opentype"), url("../fonts/HalvarEng-Rg.woff") format("woff"), url("../fonts/HalvarEng-Rg.ttf") format("truetype"),
+    url("../fonts/HalvarEng-Rg.svg#HalvarEng-Rg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -70,11 +74,11 @@ header.header-area {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 header.header-area .overlayhd::after {
   content: "";
@@ -131,11 +135,11 @@ header.header-area .navbar .mobiconbtn a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-left: 8px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -194,7 +198,7 @@ header.header-area .navbar .navbar-toggler span.menu-icon-bar:last-child {
 }
 header.header-area .navbar #main-nav.show {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
   visibility: visible;
   opacity: 1;
 }
@@ -202,7 +206,7 @@ header.header-area .navbar #main-nav {
   width: 100%;
   float: left;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 5px;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
@@ -219,15 +223,15 @@ header.header-area .navbar #main-nav {
     position: absolute;
     top: 70px;
     -webkit-transform: translateY(-115%);
-            transform: translateY(-115%);
+    transform: translateY(-115%);
     z-index: -1;
   }
 }
 header.header-area .navbar #main-nav .topnavbaxy {
   width: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
+  -ms-flex: auto;
+  flex: auto;
   position: relative;
 }
 header.header-area .navbar #main-nav .topnavbaxy .navbar-nav {
@@ -244,11 +248,11 @@ header.header-area .navbar #main-nav .topnavbaxy .navbar-nav {
     padding: 10px 15px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 header.header-area .navbar #main-nav .topnavbaxy .navbar-nav li {
@@ -257,8 +261,8 @@ header.header-area .navbar #main-nav .topnavbaxy .navbar-nav li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 20px;
 }
 @media (max-width: 767px) {
@@ -383,11 +387,11 @@ header.header-area .navbar #main-nav .rightnavpro .projectsbtn .abtn {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }
@@ -446,7 +450,7 @@ header.header-area .navbar #main-nav .navbar-nav .dropdown {
     visibility: visible;
     max-height: 380px;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 header.header-area .navbar #main-nav .navbar-nav .dropdown .dropdown-menu {
@@ -587,11 +591,11 @@ header.header-area .navbar #main-nav .navbar-nav .dropdown .dropdown-menu .dskhi
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 header.header-area .navbar #main-nav .navbar-nav .dropdown .dropdown-menu .dskhide ul li {
   width: auto;
@@ -600,7 +604,7 @@ header.header-area .navbar #main-nav .navbar-nav .dropdown .dropdown-menu .dskhi
 }
 header.header-area .navbar #main-nav .navbar-nav .dropdown .dropdown-menu .dskhide ul li span {
   -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   width: auto;
   display: inline-block;
   color: #203d3b;
@@ -778,11 +782,11 @@ header.header-area .navbar #main-nav .navbar-nav .dropdown:hover .dropdown-menu 
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 header.header-area .navbar #main-nav .navbar-nav .dropdown:hover .dropdown-menu .dskhide ul li {
   width: auto;
@@ -791,7 +795,7 @@ header.header-area .navbar #main-nav .navbar-nav .dropdown:hover .dropdown-menu 
 }
 header.header-area .navbar #main-nav .navbar-nav .dropdown:hover .dropdown-menu .dskhide ul li span {
   -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   width: auto;
   display: inline-block;
   color: #203d3b;
@@ -888,7 +892,7 @@ header.header-area .navbar #main-nav .navbar-nav .nav-link img {
   header.header-area .navbar #main-nav .navbar-nav .nav-link img {
     width: 11px;
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     position: relative;
     top: -2px;
   }
@@ -921,15 +925,15 @@ header.header-area .navbar #main-nav .width100 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .sgcity37dbanner {
-  background-image: url("../images/DesktopBanner.jpeg");
+  background-image: url("../images/DesktopBanner.avig");
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
@@ -951,15 +955,15 @@ header.header-area .navbar #main-nav .width100 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   height: 100%;
 }
 .banner img {
   width: 100%;
   height: 100%;
   -webkit-filter: drop-shadow(0 1px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(0 1px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 1px rgba(0, 0, 0, 0.1));
 }
 .banner .overlaybottom {
   content: "";
@@ -979,7 +983,7 @@ header.header-area .navbar #main-nav .width100 {
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   margin-bottom: 0;
 }
@@ -1173,11 +1177,11 @@ span.fcolorlgt {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .locationwrap .col-lg-7 {
   position: absolute;
@@ -1206,11 +1210,11 @@ span.fcolorlgt {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden;
 }
 .locationwrap .locationmap img {
@@ -1268,11 +1272,11 @@ span.fcolorlgt {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   margin-top: 15px;
   padding-left: 0;
 }
@@ -1320,7 +1324,7 @@ span.fcolorlgt {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .amenitieswrap {
@@ -1335,14 +1339,14 @@ span.fcolorlgt {
 }
 .amenitieswrap .amenitiesslider .slick-slide .amenitiesimg:hover img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .amenitieswrap .amenitiesslider .slick-slide .amenitiesimg img {
   width: 100%;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -1353,11 +1357,11 @@ span.fcolorlgt {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 13px;
 }
 .amenitieswrap .amenitiesslider .slick-slide .textbtnam span {
@@ -1482,7 +1486,7 @@ footer.signatureFooter h3 {
 
 .registerform.slideleft {
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   opacity: 1;
 }
 
@@ -1493,7 +1497,7 @@ footer.signatureFooter h3 {
   top: 53%;
   right: 0;
   -webkit-transform: translate(100%, -50%);
-          transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
   z-index: 99;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -1508,13 +1512,13 @@ footer.signatureFooter h3 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 15px;
   background: #f6f4ee;
 }
@@ -1537,11 +1541,11 @@ footer.signatureFooter h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 58px;
   height: 50px;
   position: absolute;
@@ -1582,16 +1586,16 @@ footer.signatureFooter h3 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 13px;
 }
 .registerform .container-contact100 .container-contact100-form-btn .contact100-form-btn {
   font-size: 25px;
   text-align: center;
-  background-color: #203D3B;
+  background-color: #203d3b;
   height: 42px !important;
   min-width: 127px !important;
   border-radius: 30px;
@@ -1668,14 +1672,14 @@ footer.signatureFooter h3 {
   height: 437px;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .banner-badge {
   position: absolute;
   top: 20%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 0;
 }
 @media (min-width: 992px) {
